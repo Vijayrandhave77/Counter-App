@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterbox{
+    width: 400px;
+    height: 500px;
+}
+
+.heading{
+    width: 100%;
+    height:100px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countnumber{
+    width: 100%;
+    height: 250px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    font-size: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#inc{
+    background-color: green;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+}
+
+#reset{
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+}
+#dec{
+    background-color: orange;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+}
